@@ -44,11 +44,6 @@ int bst::numNodes(bst *cu, int level) {
   return total;
   
 }
-void bst::deleteNode() {
-
-  
-  
-}
 bool bst::search(int key, bst *cur) {
 
   if(cur == NULL)
