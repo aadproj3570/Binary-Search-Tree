@@ -11,7 +11,6 @@ public:
       bst(int);
       bst* insert(bst *cur, int);
       int numNodes(bst *cur, int);
-      void deleteNode();
       bool search(int, bst *cur);
       void print(bst *cur, ostream &out);
       bool isBST(bst *root);
